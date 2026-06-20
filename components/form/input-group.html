@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input group</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-ui-checks-grid"></i> input group & validation
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Input groups combine inputs with text or buttons, while validation helps users know if input is
+                    valid.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="row g-5">
+
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Input Group
+                                </label>
+
+                                <div class="input-group">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+
+                                <p class="text-center mt-2 fw-semibold">
+                                    input-group
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Validation
+                                </label>
+
+                                <input type="text" class="form-control is-valid" value="Bootstrap">
+
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+
+                                <p class="text-center mt-2 fw-semibold">
+                                    is-valid
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>display: flex;</p>
+                                <p>border-color: green;</p>
+                                <p>border-color: red;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>input-group</p>
+                                <p>is-valid</p>
+                                <p>is-invalid</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- input group -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Input Group:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+
+                                <tr>
+                                    <td>input-group</td>
+                                    <td>Groups inputs and addons.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>input-group-text</td>
+                                    <td>Adds text before or after input.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>input-group-sm</td>
+                                    <td>Small input group.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>input-group-lg</td>
+                                    <td>Large input group.</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- validation -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Validation:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+
+                                <tr>
+                                    <td>is-valid</td>
+                                    <td>Shows valid state.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>is-invalid</td>
+                                    <td>Shows invalid state.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>valid-feedback</td>
+                                    <td>Success message.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>invalid-feedback</td>
+                                    <td>Error message.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>valid-tooltip</td>
+                                    <td>Success tooltip.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>invalid-tooltip</td>
+                                    <td>Error tooltip.</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gutter</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-arrows-collapse"></i> gutter
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Gutters add spacing between rows and columns in the Bootstrap grid.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <p class="text-center fw-semibold mb-4">
+                            g-0 (No Gap)
+                        </p>
+
+                        <div class="row g-0 mb-5">
+                            <div class="col-3">
+                                <div class="bg-primary-subtle border border-primary p-4 text-center">
+                                    1
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="bg-primary-subtle border border-primary p-4 text-center">
+                                    2
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="bg-primary-subtle border border-primary p-4 text-center">
+                                    3
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="bg-primary-subtle border border-primary p-4 text-center">
+                                    4
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="text-center fw-semibold mb-4">
+                            g-4 (Large Gap)
+                        </p>
+
+                        <div class="row g-4">
+                            <div class="col-3">
+                                <div class="bg-success-subtle border border-success p-4 text-center">
+                                    1
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="bg-success-subtle border border-success p-4 text-center">
+                                    2
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="bg-success-subtle border border-success p-4 text-center">
+                                    3
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="bg-success-subtle border border-success p-4 text-center">
+                                    4
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>.row {</p>
+                                <p>gap: 1.5rem;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>g-4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- classes table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Related:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-10">
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                    <th>CSS Equivalent</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>g-0</td>
+                                    <td>No gap.</td>
+                                    <td>gap: 0;</td>
+                                </tr>
+
+                                <tr>
+                                    <td>g-1</td>
+                                    <td>Tiny gap.</td>
+                                    <td>gap: 0.25rem;</td>
+                                </tr>
+
+                                <tr>
+                                    <td>g-2</td>
+                                    <td>Small gap.</td>
+                                    <td>gap: 0.5rem;</td>
+                                </tr>
+
+                                <tr>
+                                    <td>g-3</td>
+                                    <td>Medium gap.</td>
+                                    <td>gap: 1rem;</td>
+                                </tr>
+
+                                <tr>
+                                    <td>g-4</td>
+                                    <td>Large gap.</td>
+                                    <td>gap: 1.5rem;</td>
+                                </tr>
+
+                                <tr>
+                                    <td>g-5</td>
+                                    <td>Extra large gap.</td>
+                                    <td>gap: 3rem;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- directional gutters -->
+            <div class="my-5">
+                <p class="fw-semibold mb-2">Directional Gutters</p>
+
+                <p class="ms-3 mb-3 text-secondary-emphasis">
+                    Control spacing horizontally or vertically only.
+                </p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-10">
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>gx-0 to gx-5</td>
+                                    <td>Horizontal spacing.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>gy-0 to gy-5</td>
+                                    <td>Vertical spacing.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- responsive versions -->
+            <div class="my-3">
+                <p class="fw-semibold mb-2">Responsive versions:</p>
+
+                <ul class="my-3">
+                    <li>g-sm-*</li>
+                    <li>g-md-*</li>
+                    <li>g-lg-*</li>
+                    <li>g-xl-*</li>
+                    <li>g-xxl-*</li>
+                    <li>gx-sm-* / gy-sm-*</li>
+                    <li>gx-md-* / gy-md-*</li>
+                    <li>gx-lg-* / gy-lg-*</li>
+                    <li>gx-xl-* / gy-xl-*</li>
+                    <li>gx-xxl-* / gy-xxl-*</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

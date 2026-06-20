@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-fonts"></i> typography
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Typography classes control text size, weight, style, alignment, and appearance.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="text-center">
+
+                            <h1 class="display-1">Display 1</h1>
+
+                            <h2 class="fw-bold">fw-bold</h2>
+
+                            <p class="fst-italic">fst-italic</p>
+
+                            <p class="text-decoration-underline">
+                                text-decoration-underline
+                            </p>
+
+                            <p class="text-uppercase">
+                                text-uppercase
+                            </p>
+
+                            <p class="lead">
+                                lead paragraph
+                            </p>
+
+                            <p class="text-muted">
+                                text-muted
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>.title {</p>
+                                <p>font-weight: bold;</p>
+                                <p>font-size: 3rem;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>fw-bold</p>
+                                <p>display-1</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- headings -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Headings:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <div class="list-group list-group-horizontal">
+                            <p class="list-group-item list-group-action">h1</p>
+                            <p class="list-group-item list-group-action">h2</p>
+                            <p class="list-group-item list-group-action">h3</p>
+                            <p class="list-group-item list-group-action">h4</p>
+                            <p class="list-group-item list-group-action">h5</p>
+                            <p class="list-group-item list-group-action">h6</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- display headings -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Display Headings:</p>
+
+                <div class="row my-3">
+                    <div class="col-10 col-md-4">
+                        <div class="list-group">
+                            <p class="list-group-item list-group-action list-group-item-primary">display-1</p>
+                            <p class="list-group-item list-group-action list-group-item-info">display-2</p>
+                            <p class="list-group-item list-group-action list-group-item-primary">display-3</p>
+                            <p class="list-group-item list-group-action list-group-item-info">display-4</p>
+                            <p class="list-group-item list-group-action list-group-item-primary">display-5</p>
+                            <p class="list-group-item list-group-action list-group-item-info">display-6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- font style -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Font Style:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>fst-normal</td>
+                                    <td>Normal text style.</td>
+                                </tr>
+                                <tr>
+                                    <td>fst-italic</td>
+                                    <td>Italic text.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- font weight -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Font Weight:</p>
+
+                <ul class="my-3">
+                    <li>fw-light</li>
+                    <li>fw-lighter</li>
+                    <li>fw-normal</li>
+                    <li>fw-semibold</li>
+                    <li>fw-bold</li>
+                    <li>fw-bolder</li>
+                </ul>
+            </div>
+
+            <!-- text transform -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Text Transform:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>text-lowercase</td>
+                                    <td>All lowercase.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-uppercase</td>
+                                    <td>All uppercase.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-capitalize</td>
+                                    <td>First letter capital.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- text decoration -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Text Decoration:</p>
+
+                <ul class="my-3">
+                    <li>text-decoration-none</li>
+                    <li>text-decoration-underline</li>
+                    <li>text-decoration-line-through</li>
+                </ul>
+            </div>
+
+            <!-- text wrapping -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Text Wrapping:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>text-wrap</td>
+                                    <td>Allows wrapping.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-nowrap</td>
+                                    <td>Prevents wrapping.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-break</td>
+                                    <td>Breaks long words.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- lead -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Lead Text:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>lead</td>
+                                    <td>Makes paragraph stand out.</td>
+                                </tr>
+                                <tr>
+                                    <td>small</td>
+                                    <td>Makes text smaller.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Alignment</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-text-center"></i> text alignment
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Text alignment classes control where text appears horizontally.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="border border-primary bg-primary-subtle rounded p-3 mb-4">
+                            <p class="text-start mb-0 fw-semibold">
+                                text-start
+                            </p>
+                        </div>
+
+                        <div class="border border-primary bg-primary-subtle rounded p-3 mb-4">
+                            <p class="text-center mb-0 fw-semibold">
+                                text-center
+                            </p>
+                        </div>
+
+                        <div class="border border-primary bg-primary-subtle rounded p-3">
+                            <p class="text-end mb-0 fw-semibold">
+                                text-end
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>.text {</p>
+                                <p>text-align: center;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>text-center</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Related:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>text-start</td>
+                                    <td>Aligns text to the left.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>text-center</td>
+                                    <td>Aligns text to the center.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>text-end</td>
+                                    <td>Aligns text to the right.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- responsive versions -->
+            <div class="my-3">
+                <p class="fw-semibold mb-2">Responsive versions:</p>
+
+                <ul class="my-3">
+                    <li>text-sm-start / text-sm-center / text-sm-end</li>
+                    <li>text-md-start / text-md-center / text-md-end</li>
+                    <li>text-lg-start / text-lg-center / text-lg-end</li>
+                    <li>text-xl-start / text-xl-center / text-xl-end</li>
+                    <li>text-xxl-start / text-xxl-center / text-xxl-end</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

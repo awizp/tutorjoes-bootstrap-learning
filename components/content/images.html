@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-image-fill"></i> images
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Image classes help make images responsive and add a thumbnail style without writing custom CSS.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="row g-4 justify-content-center text-center">
+
+                            <div class="col-md-5">
+                                <img src="https://placehold.co/500x300" class="img-fluid" alt="img-fluid">
+
+                                <p class="fw-semibold mt-3">
+                                    img-fluid
+                                </p>
+                            </div>
+
+                            <div class="col-md-5">
+                                <img src="https://placehold.co/500x300" class="img-fluid img-thumbnail"
+                                    alt="img-thumbnail">
+
+                                <p class="fw-semibold mt-3">
+                                    img-thumbnail
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>img {</p>
+                                <p>max-width: 100%;</p>
+                                <p>height: auto;</p>
+                                <p>}</p>
+
+                                <br>
+
+                                <p>.thumbnail {</p>
+                                <p>padding: 0.25rem;</p>
+                                <p>border: 1px solid #dee2e6;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>img-fluid</p>
+                                <p>img-thumbnail</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Related:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+
+                                <tr>
+                                    <td>img-fluid</td>
+                                    <td>Makes image responsive.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>img-thumbnail</td>
+                                    <td>Adds a thumbnail frame.</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

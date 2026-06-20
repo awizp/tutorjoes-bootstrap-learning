@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* paragraph styles */
+p {
+    margin: 1px !important;
+}
+
+.class-style > p {
+    color: blue !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+/* offcanvas classes active badge */
+#bs-class-menu a.nav-link:hover {
+    background-color: lemonchiffon !important;
+}
+
+#layout-bs-menu > a.nav-link.active {
+    color: white !important;
+    background-color: rgb(13, 202, 240) !important;
+}
+
+#content-bs-menu > a.nav-link.active {
+    color: white !important;
+    background-color: rgb(25, 135, 84) !important;
+}
+
+#form-bs-menu > a.nav-link.active {
+    color: white !important;
+    background-color: rgb(13, 110, 253) !important;
+}
+
+#component-bs-menu > a.nav-link:hover {
+    background-color: rgb(255, 193, 7) !important;
+}
+
+#helpers-bs-menu > a.nav-link:hover {
+    color: white !important;
+    background-color: rgb(220, 53, 69) !important;
+}
+
+#utilities-bs-menu > a.nav-link:hover {
+    color: white !important;
+    background-color: #2b2f32 !important;
+}
+
+/* offcanvas scrollbar style */
+.offcanvas .offcanvas-body::-webkit-scrollbar {
+    width: 8px !important;
+    background-color: lightcyan !important;
+    border-radius: 25%;
+}
+
+.offcanvas .offcanvas-body::-webkit-scrollbar-thumb {
+    width: 6px !important;
+    background-color: blueviolet !important;
+    border-radius: 25px;
+}

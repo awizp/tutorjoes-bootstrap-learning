@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/bootstrap/assets/favicon/favicon.ico" type="image/x-icon">
+    <!-- ****** Bootstrap Styles ****** -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- ****** Bootstrap icons ****** -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- ****** Stylesheets ****** -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap Overview | Vishnuprakash R</title>
+</head>
+
+<body>
+
+    <!-- ****** navbar component ****** -->
+    <nav id="navbar-container" class="sticky-top"></nav>
+
+    <!-- ****** offcanvas component ****** -->
+    <div class="offcanvas shadow offcanvas-start collapse" id="offcanvas-menu" data-bs-scroll="true">
+
+        <div class="offcanvas-header text-light" style="background-color: blueviolet;" data-bs-theme="dark">
+            <h5 class="h5 offcanvas-title"><i class="bi bi-book-half"></i> Getting Started</h5>
+            <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body p-4 overflow-y-scroll" id="bs-class-menu">
+            <!-- layout classes -->
+            <div class="my-3">
+                <h5 class="text-info mb-3"><i class="bi bi-grid-fill"></i> Layout</h5>
+
+                <div class="ms-3 nav nav-pills vstack text-capitalize fw-semibold" id="layout-bs-menu">
+                    <a href="#container-bs-class" class="nav-link text-dark">container</a>
+                    <a href="#grid-bs-class" class="nav-link text-dark">grid</a>
+                    <a href="#gutter-bs-class" class="nav-link text-dark">gutter</a>
+                    <a href="#offset-bs-class" class="nav-link text-dark">offset</a>
+                    <a href="#margin-bs-class" class="nav-link text-dark">Margin and Padding</a>
+                    <a href="#colors-bs-class" class="nav-link text-dark">Colors</a>
+                </div>
+            </div>
+
+            <!-- content classes -->
+            <div class="my-3">
+                <h5 class="text-success mb-3"><i class="bi bi-file-earmark-bar-graph-fill"></i> Content</h5>
+
+                <div class="ms-3 nav nav-pills vstack text-capitalize fw-semibold" id="content-bs-menu">
+                    <a href="#typography-bs-class" class="nav-link text-dark">typography</a>
+                    <a href="#text-alignment-bs-class" class="nav-link text-dark">text alignment</a>
+                    <a href="#images-bs-class" class="nav-link text-dark">Images</a>
+                    <a href="#border-bs-class" class="nav-link text-dark">Borders</a>
+                    <a href="#table-bs-class" class="nav-link text-dark">Table</a>
+                    <a href="#figure-bs-class" class="nav-link text-dark">Figure</a>
+                </div>
+            </div>
+
+            <!-- form classes -->
+            <div class="my-3">
+                <h5 class="text-primary mb-3"><i class="bi bi-ui-checks"></i> Forms</h5>
+
+                <div class="ms-3 nav nav-pills vstack text-capitalize fw-semibold" id="form-bs-menu">
+                    <a href="#form-control-bs-class" class="nav-link text-dark">form control</a>
+                    <a href="#form-select-bs-class" class="nav-link text-dark">form select</a>
+                    <a href="#form-check-bs-class" class="nav-link text-dark">Checks & Switches</a>
+                    <a href="#form-range-bs-class" class="nav-link text-dark">Range, color & datalist</a>
+                    <a href="#input-group-bs-class" class="nav-link text-dark">input group & validation</a>
+                </div>
+            </div>
+
+            <!-- component classes -->
+            <div class="my-3">
+                <h5 class="text-warning mb-3"><i class="bi bi-bricks"></i> Components</h5>
+
+                <div class="ms-3 nav nav-pills vstack text-capitalize fw-semibold" id="component-bs-menu">
+                    <a href="./assets/doc/bs-components.xlsx"
+                        class="nav-link text-dark d-flex fw-semibold justify-content-between align-items-center gap-2">
+                        <span>Download</span>
+                        <span class="h4"><i class="bi bi-box-arrow-in-down"></i></span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- helpers classes -->
+            <div class="my-3">
+                <h5 class="text-danger mb-3"><i class="bi bi-bluesky"></i> Helpers</h5>
+
+                <div class="ms-3 nav nav-pills vstack text-capitalize fw-semibold" id="helpers-bs-menu">
+                    <a href="./assets/doc/bs-helpers.xlsx"
+                        class="nav-link text-dark d-flex fw-semibold justify-content-between align-items-center gap-2">
+                        <span>Download</span>
+                        <span class="h4"><i class="bi bi-box-arrow-in-down"></i></span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- utilities classes -->
+            <div class="my-3">
+                <h5 class="text-secondary-emphasis mb-3"><i class="bi bi-box"></i> Utilities</h5>
+
+                <div class="ms-3 nav nav-pills vstack text-capitalize fw-semibold" id="utilities-bs-menu">
+                    <a href="./assets/doc/bs-utilities.xlsx"
+                        class="nav-link text-dark d-flex fw-semibold justify-content-between align-items-center gap-2">
+                        <span>Download</span>
+                        <span class="h4"><i class="bi bi-box-arrow-in-down"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ****** header component ****** -->
+    <section id="header-container"></section>
+
+    <!-- ****** layout class component ****** -->
+    <div data-bs-spy="scroll" data-bs-target="#layout-bs-menu">
+        <!-- container component -->
+        <section id="container-bs-class" class="border-bottom"></section>
+
+        <!-- grid component -->
+        <section id="grid-bs-class" class="border-bottom"></section>
+
+        <!-- gutter component -->
+        <section id="gutter-bs-class" class="border-bottom"></section>
+
+        <!-- offset component -->
+        <section id="offset-bs-class" class="border-bottom"></section>
+
+        <!-- margin and padding component -->
+        <section id="margin-bs-class" class="border-bottom"></section>
+
+        <!-- colors component -->
+        <section id="colors-bs-class" class="border-bottom"></section>
+    </div>
+
+    <!-- ****** content class component ****** -->
+    <div data-bs-spy="scroll" data-bs-target="#content-bs-menu">
+        <!-- typography component -->
+        <section id="typography-bs-class" class="border-bottom"></section>
+
+        <!-- text-alignment component -->
+        <section id="text-alignment-bs-class" class="border-bottom"></section>
+
+        <!-- images component -->
+        <section id="images-bs-class" class="border-bottom"></section>
+
+        <!-- border component -->
+        <section id="border-bs-class" class="border-bottom"></section>
+
+        <!-- table component -->
+        <section id="table-bs-class" class="border-bottom"></section>
+
+        <!-- figure component -->
+        <section id="figure-bs-class" class="border-bottom"></section>
+    </div>
+
+    <!-- ****** form class component ****** -->
+    <div data-bs-spy="scroll" data-bs-target="#form-bs-menu">
+        <!-- form control component -->
+        <section id="form-control-bs-class" class="border-bottom"></section>
+
+        <!-- form select component -->
+        <section id="form-select-bs-class" class="border-bottom"></section>
+
+        <!-- form check component -->
+        <section id="form-check-bs-class" class="border-bottom"></section>
+
+        <!-- range, color and datalist component -->
+        <section id="form-range-bs-class" class="border-bottom"></section>
+
+        <!-- input group and validation component -->
+        <section id="input-group-bs-class"></section>
+    </div>
+
+    <!-- ****** form class component ****** -->
+    <footer class="mt-3 bg-dark text-light py-5">
+        <div class="container text-center">
+            <p class="mb-3">All other class lists given as Excel sheet</p>
+            <p>2026 &copy; Vishnuprakash R</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+    <!-- main script -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

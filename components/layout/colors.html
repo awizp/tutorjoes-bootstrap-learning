@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-palette-fill"></i> colors
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Color classes quickly change text, background, borders, and links without writing CSS.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="row g-3 text-center">
+
+                            <div class="col-md-4">
+                                <div class="bg-primary text-white p-4 rounded">
+                                    .bg-primary
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="bg-success text-white p-4 rounded">
+                                    .bg-success
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="bg-danger text-white p-4 rounded">
+                                    .bg-danger
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="text-primary fw-bold">
+                                    .text-primary
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="text-success fw-bold">
+                                    .text-success
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="text-danger fw-bold">
+                                    .text-danger
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>.primary {</p>
+                                <p>color: blue;</p>
+                                <p>}</p>
+
+                                <br>
+
+                                <p>.bg-primary {</p>
+                                <p>background-color: blue;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>text-primary</p>
+                                <p>bg-primary</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- text colors -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Text Colors:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-10">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>text-primary</td>
+                                    <td>Primary blue text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-secondary</td>
+                                    <td>Secondary gray text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-success</td>
+                                    <td>Success green text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-danger</td>
+                                    <td>Danger red text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-warning</td>
+                                    <td>Warning yellow text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-info</td>
+                                    <td>Info cyan text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-light</td>
+                                    <td>Light colored text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-dark</td>
+                                    <td>Dark colored text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-body</td>
+                                    <td>Default body color.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-muted</td>
+                                    <td>Soft gray text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-white</td>
+                                    <td>White text.</td>
+                                </tr>
+                                <tr>
+                                    <td>text-black</td>
+                                    <td>Black text.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- background colors -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Background Colors:</p>
+
+                <ul class="my-3">
+                    <li>bg-primary</li>
+                    <li>bg-secondary</li>
+                    <li>bg-success</li>
+                    <li>bg-danger</li>
+                    <li>bg-warning</li>
+                    <li>bg-info</li>
+                    <li>bg-light</li>
+                    <li>bg-dark</li>
+                    <li>bg-white</li>
+                    <li>bg-transparent</li>
+                </ul>
+            </div>
+
+            <!-- subtle colors -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Subtle Colors:</p>
+
+                <ul class="my-3">
+                    <li>bg-primary-subtle</li>
+                    <li>bg-secondary-subtle</li>
+                    <li>bg-success-subtle</li>
+                    <li>bg-danger-subtle</li>
+                    <li>bg-warning-subtle</li>
+                    <li>bg-info-subtle</li>
+                    <li>bg-light-subtle</li>
+                    <li>bg-dark-subtle</li>
+                </ul>
+            </div>
+
+            <!-- emphasis colors -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Emphasis Colors:</p>
+
+                <ul class="my-3">
+                    <li>text-primary-emphasis</li>
+                    <li>text-secondary-emphasis</li>
+                    <li>text-success-emphasis</li>
+                    <li>text-danger-emphasis</li>
+                    <li>text-warning-emphasis</li>
+                    <li>text-info-emphasis</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

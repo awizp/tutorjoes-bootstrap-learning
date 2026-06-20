@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form check</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-check2-square"></i> checks & switches
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Form check classes create checkboxes, radio buttons, inline controls, and switches.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="row g-4">
+
+                            <div class="col-md-3">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="check1">
+                                    <label class="form-check-label" for="check1">
+                                        Checkbox
+                                    </label>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDemo" id="radio1">
+                                    <label class="form-check-label" for="radio1">
+                                        Radio
+                                    </label>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheck">
+                                    <label class="form-check-label" for="inlineCheck">
+                                        Inline
+                                    </label>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="switch1">
+                                    <label class="form-check-label" for="switch1">
+                                        Switch
+                                    </label>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>&lt;input type="checkbox"&gt;</p>
+                                <p>&lt;input type="radio"&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>form-check</p>
+                                <p>form-check-input</p>
+                                <p>form-check-label</p>
+                                <p>form-switch</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Related:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+
+                                <tr>
+                                    <td>form-check</td>
+                                    <td>Wrapper for checks and radios.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>form-check-input</td>
+                                    <td>Styles checkbox or radio.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>form-check-label</td>
+                                    <td>Styles the label.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>form-check-inline</td>
+                                    <td>Places controls inline.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>form-switch</td>
+                                    <td>Turns checkbox into a switch.</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

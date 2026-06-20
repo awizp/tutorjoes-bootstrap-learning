@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-border-all"></i> border
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Border classes add, remove, color, and round borders without writing custom CSS.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="row g-4 text-center justify-content-center">
+
+                            <div class="col-md-3">
+                                <div class="border p-4 bg-white">
+                                    border
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="border border-primary p-4 bg-white">
+                                    border-primary
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="border border-3 border-success p-4 bg-white">
+                                    border-3
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="border rounded-circle p-5 bg-white d-inline-block">
+                                    rounded-circle
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>.box {</p>
+                                <p>border: 1px solid #dee2e6;</p>
+                                <p>border-radius: 0.375rem;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>border</p>
+                                <p>rounded</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- border classes -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Border Classes:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>border</td>
+                                    <td>Adds border.</td>
+                                </tr>
+                                <tr>
+                                    <td>border-0</td>
+                                    <td>Removes border.</td>
+                                </tr>
+                                <tr>
+                                    <td>border-top</td>
+                                    <td>Top border only.</td>
+                                </tr>
+                                <tr>
+                                    <td>border-bottom</td>
+                                    <td>Bottom border only.</td>
+                                </tr>
+                                <tr>
+                                    <td>border-start</td>
+                                    <td>Left border only.</td>
+                                </tr>
+                                <tr>
+                                    <td>border-end</td>
+                                    <td>Right border only.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- border colors -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Border Colors:</p>
+
+                <ul class="my-3">
+                    <li>border-primary</li>
+                    <li>border-secondary</li>
+                    <li>border-success</li>
+                    <li>border-danger</li>
+                    <li>border-warning</li>
+                    <li>border-info</li>
+                    <li>border-light</li>
+                    <li>border-dark</li>
+                    <li>border-white</li>
+                </ul>
+            </div>
+
+            <!-- border width -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Border Width:</p>
+
+                <ul class="my-3">
+                    <li>border-1</li>
+                    <li>border-2</li>
+                    <li>border-3</li>
+                    <li>border-4</li>
+                    <li>border-5</li>
+                </ul>
+            </div>
+
+            <!-- rounded corners -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Rounded Corners:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-10">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>rounded</td>
+                                    <td>Default rounded corners.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-0</td>
+                                    <td>No rounded corners.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-1</td>
+                                    <td>Small rounded corners.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-2</td>
+                                    <td>Medium rounded corners.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-3</td>
+                                    <td>Large rounded corners.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-4</td>
+                                    <td>Extra large rounded corners.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-5</td>
+                                    <td>Maximum rounded corners.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-circle</td>
+                                    <td>Makes a circle.</td>
+                                </tr>
+                                <tr>
+                                    <td>rounded-pill</td>
+                                    <td>Makes a pill shape.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

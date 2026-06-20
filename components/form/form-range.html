@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form range</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-sliders"></i> special inputs
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Bootstrap provides styled range sliders, datalist suggestions, and color pickers.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="row g-5">
+
+                            <div class="col-md-4">
+
+                                <label class="form-label fw-semibold">
+                                    Range Input
+                                </label>
+
+                                <input type="range" class="form-range">
+
+                                <p class="text-center mt-2 fw-semibold">
+                                    form-range
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <label class="form-label fw-semibold">
+                                    Datalist Input
+                                </label>
+
+                                <input class="form-control" list="frameworks" placeholder="Choose framework">
+
+                                <datalist id="frameworks">
+                                    <option value="React">
+                                    <option value="Vue">
+                                    <option value="Angular">
+                                    <option value="Svelte">
+                                </datalist>
+
+                                <p class="text-center mt-2 fw-semibold">
+                                    input + datalist
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <label class="form-label fw-semibold">
+                                    Color Picker
+                                </label>
+
+                                <input type="color" class="form-control form-control-color" value="#0d6efd">
+
+                                <p class="text-center mt-2 fw-semibold">
+                                    form-control-color
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>&lt;input type="range"&gt;</p>
+                                <p>&lt;input list="..."&gt;</p>
+                                <p>&lt;datalist&gt;</p>
+                                <p>&lt;input type="color"&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>form-range</p>
+                                <p>form-control-color</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Related:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+
+                                <tr>
+                                    <td>form-range</td>
+                                    <td>Styles range sliders.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>form-control-color</td>
+                                    <td>Styles color picker.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>input + datalist</td>
+                                    <td>Shows suggestion list while typing.</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

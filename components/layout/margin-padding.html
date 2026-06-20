@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and Padding</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-arrows-expand"></i> Margin and Padding
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Margin adds space outside an element. Padding adds space inside an element.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <p class="text-center fw-semibold mb-4">
+                            Margin (Outside Space)
+                        </p>
+
+                        <div class="bg-danger-subtle border border-danger p-3 mb-5">
+                            Parent Container
+
+                            <div class="bg-primary-subtle border border-primary p-3 m-5 text-center">
+                                m-5
+                            </div>
+                        </div>
+
+                        <p class="text-center fw-semibold mb-4">
+                            Padding (Inside Space)
+                        </p>
+
+                        <div class="bg-success-subtle border border-success p-5 text-center">
+                            p-5
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>.margin {</p>
+                                <p>margin: 3rem;</p>
+                                <p>}</p>
+
+                                <br>
+
+                                <p>.padding {</p>
+                                <p>padding: 3rem;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>m-5</p>
+                                <p>p-5</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Related:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-10">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>m-0 to m-5</td>
+                                    <td>Margin all sides.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>p-0 to p-5</td>
+                                    <td>Padding all sides.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>mt-*</td>
+                                    <td>Top margin.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>mb-*</td>
+                                    <td>Bottom margin.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>ms-*</td>
+                                    <td>Left margin.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>me-*</td>
+                                    <td>Right margin.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>mx-*</td>
+                                    <td>Left & right margin.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>my-*</td>
+                                    <td>Top & bottom margin.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>pt-*</td>
+                                    <td>Top padding.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>pb-*</td>
+                                    <td>Bottom padding.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>ps-*</td>
+                                    <td>Left padding.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>pe-*</td>
+                                    <td>Right padding.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>px-*</td>
+                                    <td>Left & right padding.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>py-*</td>
+                                    <td>Top & bottom padding.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>m-auto</td>
+                                    <td>Auto margin.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- spacing scale -->
+            <div class="my-3">
+                <p class="fw-semibold mb-2">Spacing Scale:</p>
+
+                <ul class="my-3">
+                    <li>0 = 0rem</li>
+                    <li>1 = 0.25rem</li>
+                    <li>2 = 0.5rem</li>
+                    <li>3 = 1rem</li>
+                    <li>4 = 1.5rem</li>
+                    <li>5 = 3rem</li>
+                </ul>
+            </div>
+
+            <!-- responsive versions -->
+            <div class="my-3">
+                <p class="fw-semibold mb-2">Responsive versions:</p>
+
+                <ul class="my-3">
+                    <li>m-sm-* / p-sm-*</li>
+                    <li>m-md-* / p-md-*</li>
+                    <li>m-lg-* / p-lg-*</li>
+                    <li>m-xl-* / p-xl-*</li>
+                    <li>m-xxl-* / p-xxl-*</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

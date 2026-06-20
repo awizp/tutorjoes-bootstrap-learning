@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-table"></i> table
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Table classes help create responsive, styled, and easy to read tables.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5">
+
+                    <div class="container border border-warning bg-warning-subtle py-5">
+
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover table-bordered text-center">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Role</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>John</td>
+                                        <td>Developer</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td>David</td>
+                                        <td>Designer</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Alex</td>
+                                        <td>Manager</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>table {</p>
+                                <p>width: 100%;</p>
+                                <p>border-collapse: collapse;</p>
+                                <p>}</p>
+
+                                <p>th, td {</p>
+                                <p>padding: 0.75rem;</p>
+                                <p>border: 1px solid #dee2e6;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>table</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- basic table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Basic Table:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>table</td>
+                                    <td>Basic Bootstrap table.</td>
+                                </tr>
+                                <tr>
+                                    <td>table-sm</td>
+                                    <td>Compact table spacing.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- table variants -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Table Variants:</p>
+
+                <ul class="my-3">
+                    <li>table-primary</li>
+                    <li>table-secondary</li>
+                    <li>table-success</li>
+                    <li>table-danger</li>
+                    <li>table-warning</li>
+                    <li>table-info</li>
+                    <li>table-light</li>
+                    <li>table-dark</li>
+                </ul>
+            </div>
+
+            <!-- table styling -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Table Styling:</p>
+
+                <div class="row">
+                    <div class="col-12 col-lg-10">
+
+                        <table class="table table-sm table-dark">
+                            <thead class="text-center">
+                                <tr>
+                                    <th>BS Class</th>
+                                    <th>What this does</th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>table-striped</td>
+                                    <td>Adds zebra stripes.</td>
+                                </tr>
+                                <tr>
+                                    <td>table-striped-columns</td>
+                                    <td>Stripes columns.</td>
+                                </tr>
+                                <tr>
+                                    <td>table-hover</td>
+                                    <td>Highlights row on hover.</td>
+                                </tr>
+                                <tr>
+                                    <td>table-active</td>
+                                    <td>Highlights a row.</td>
+                                </tr>
+                                <tr>
+                                    <td>table-bordered</td>
+                                    <td>Adds borders.</td>
+                                </tr>
+                                <tr>
+                                    <td>table-borderless</td>
+                                    <td>Removes borders.</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- responsive tables -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Responsive Tables:</p>
+
+                <ul class="my-3">
+                    <li>table-responsive</li>
+                    <li>table-responsive-sm</li>
+                    <li>table-responsive-md</li>
+                    <li>table-responsive-lg</li>
+                    <li>table-responsive-xl</li>
+                    <li>table-responsive-xxl</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

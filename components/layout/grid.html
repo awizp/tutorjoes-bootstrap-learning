@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+</head>
+
+<body>
+    <div class="my-5">
+        <div class="container">
+            <!-- heading -->
+            <div class="my-3">
+                <h2 class="h2 fw-bold text-capitalize mb-3 text-danger-emphasis">
+                    <i class="bi bi-grid-3x3-gap-fill"></i> grid
+                </h2>
+                <p class="fw-semibold text-secondary ms-5">
+                    Grid System divides the page into 12 columns. You use rows and columns to build responsive layouts.
+                </p>
+            </div>
+
+            <!-- visual part -->
+            <div class="my-3">
+                <p class="fw-semibold text-info mb-3">Visual:</p>
+
+                <div class="container bg-light rounded-3 p-5 text-center">
+                    <div class="container mb-3 border border-warning py-3 bg-warning-subtle">
+                        <div class="row">
+                            <div class="col p-5 bg-primary-subtle border-primary border">col 1</div>
+                            <div class="col p-5 bg-primary-subtle border-primary border">col 2</div>
+                            <div class="col p-5 bg-primary-subtle border-primary border">col 3</div>
+                            <div class="col p-5 bg-primary-subtle border-primary border">col 4</div>
+                            <div class="col p-5 bg-primary-subtle border-primary border">col 5</div>
+                            <div class="col p-5 bg-primary-subtle border-primary border">col 6</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- classes in css and bs -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Difference:</p>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <!-- css class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-danger fw-semibold">CSS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>.row {</p>
+                                <p>display: flex;</p>
+                                <p>flex-wrap: wrap;</p>
+                                <p>}</p>
+                                <p>.col {</p>
+                                <p>flex: 1 0 0%;</p>
+                                <p>}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- bootstrap class -->
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <p class="text-success fw-semibold">BS class</p>
+
+                            <div class="ms-3 mt-3 class-style">
+                                <p>&lt;div class="row"&gt;</p>
+                                <p>&lt;div class="col"&gt;..&lt;/div&gt;</p>
+                                <p>&lt;/div&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- classes table -->
+            <div class="my-5">
+                <p class="fw-semibold text-info mb-3">Related:</p>
+
+                <div class="my-3">
+                    <p class="fw-semibold mb-2">1. row</p>
+
+                    <p class="ms-3 mb-3 text-secondary-emphasis">
+                        Creates a horizontal row for columns.
+                    </p>
+
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <!-- css class -->
+                        <div class="col">
+                            <div class="bg-light rounded-3 p-3 h-100">
+                                <p class="text-danger fw-semibold">CSS class</p>
+
+                                <div class="ms-3 mt-3 class-style">
+                                    <p>Same as .row</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- bootstrap class -->
+                        <div class="col">
+                            <div class="bg-light rounded-3 p-3 h-100">
+                                <p class="text-success fw-semibold">BS class</p>
+
+                                <div class="ms-3 mt-3 class-style">
+                                    <p>row</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row table -->
+                <div class="my-3">
+                    <p class="fw-semibold mb-2">Row Column Classes</p>
+
+                    <p class="text-secondary-emphasis ms-3">These automatically create columns inside a row.</p>
+
+                    <div class="row my-3">
+                        <div class="col-12 col-md-6">
+                            <table class="table table-sm table-dark rounded-2">
+                                <thead class="fw-semibold text-light text-center">
+                                    <tr>
+                                        <td>BS class</td>
+                                        <td>What this does</td>
+                                    </tr>
+                                </thead>
+
+                                <tbody class="text-light text-center">
+                                    <tr>
+                                        <td>row-cols-1</td>
+                                        <td>1 column per row.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>row-cols-2</td>
+                                        <td>2 columns per row.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>row-cols-3</td>
+                                        <td>3 columns per row.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>row-cols-4</td>
+                                        <td>4 columns per row.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>row-cols-5</td>
+                                        <td>5 columns per row.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>row-cols-6</td>
+                                        <td>6 columns per row.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>row-cols-auto</td>
+                                        <td>Width based on content.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-3">
+                    <p class="fw-semibold mb-2">Responsive versions:</p>
+
+                    <ul class="my-3">
+                        <li>row-cols-sm-*</li>
+                        <li>row-cols-md-*</li>
+                        <li>row-cols-lg-*</li>
+                        <li>row-cols-xl-*</li>
+                        <li>row-cols-xxl-*</li>
+                    </ul>
+                </div>
+
+                <div class="my-3">
+                    <p class="fw-semibold mb-2">2. col</p>
+
+                    <p class="ms-3 mb-3 text-secondary-emphasis">
+                        Auto sized column.
+                    </p>
+
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <!-- css class -->
+                        <div class="col">
+                            <div class="bg-light rounded-3 p-3 h-100">
+                                <p class="text-danger fw-semibold">CSS class</p>
+
+                                <div class="ms-3 mt-3 class-style">
+                                    <p>Same as .col</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- bootstrap class -->
+                        <div class="col">
+                            <div class="bg-light rounded-3 p-3 h-100">
+                                <p class="text-success fw-semibold">BS class</p>
+
+                                <div class="ms-3 mt-3 class-style">
+                                    <p>col</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- col table -->
+                <div class="my-3">
+                    <p class="fw-semibold mb-2">Fixed Column Width Classes</p>
+
+                    <ul class="my-3">
+                        <li>col-1</li>
+                        <li>col-2</li>
+                        <li>col-3</li>
+                        <li>col-4</li>
+                        <li>col-5</li>
+                        <li>col-6</li>
+                        <li>col-7</li>
+                        <li>col-8</li>
+                        <li>col-9</li>
+                        <li>col-10</li>
+                        <li>col-11</li>
+                        <li>col-12</li>
+                    </ul>
+                </div>
+
+                <div class="my-3">
+                    <p class="fw-semibold mb-2">3. col-auto</p>
+
+                    <p class="ms-3 mb-3 text-secondary-emphasis">
+                        Width based on content.
+                    </p>
+
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <!-- css class -->
+                        <div class="col">
+                            <div class="bg-light rounded-3 p-3 h-100">
+                                <p class="text-danger fw-semibold">CSS class</p>
+
+                                <div class="ms-3 mt-3 class-style">
+                                    <p>.col-auto {</p>
+                                    <p>flex: 0 0 auto;</p>
+                                    <p>width: auto;</p>
+                                    <p>}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- bootstrap class -->
+                        <div class="col">
+                            <div class="bg-light rounded-3 p-3 h-100">
+                                <p class="text-success fw-semibold">BS class</p>
+
+                                <div class="ms-3 mt-3 class-style">
+                                    <p>col-auto</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-3">
+                    <p class="fw-semibold mb-2">Responsive cols</p>
+
+                    <ul class="my-3">
+                        <li>cols-sm-*</li>
+                        <li>cols-md-*</li>
+                        <li>cols-lg-*</li>
+                        <li>cols-xl-*</li>
+                        <li>cols-xxl-*</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

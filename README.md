@@ -1,6 +1,6 @@
 # Bootstrap 5 Visual Guide
 
-A beginner-friendly Bootstrap 5 learning resource that explains Bootstrap classes visually with real examples, CSS equivalents, and easy-to-understand explanations.
+A beginner friendly Bootstrap 5 learning resource that explains Bootstrap classes visually.
 
 ## About
 

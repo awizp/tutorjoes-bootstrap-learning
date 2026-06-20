@@ -116,7 +116,7 @@ const getElementsInDocument = (elements) => {
     elements.forEach(element => {
         const { nameEl, pathEl } = element;
 
-        fetch(`/components/main/${pathEl}.html`)
+        fetch(`./components/main/${pathEl}.html`)
             .then(res => res.text())
             .then(data => nameEl.innerHTML = data);
     });
@@ -126,7 +126,7 @@ const getLayoutEls = (layoutArr) => {
     layoutArr.forEach(element => {
         const { nameEl, pathEl } = element;
 
-        fetch(`/components/layout/${pathEl}.html`)
+        fetch(`./components/layout/${pathEl}.html`)
             .then(res => res.text())
             .then(data => nameEl.innerHTML = data);
     });
@@ -136,7 +136,7 @@ const getContentEls = (contentArr) => {
     contentArr.forEach(element => {
         const { nameEl, pathEl } = element;
 
-        fetch(`/components/content/${pathEl}.html`)
+        fetch(`./components/content/${pathEl}.html`)
             .then(res => res.text())
             .then(data => nameEl.innerHTML = data);
     });
@@ -146,7 +146,7 @@ const getFormEls = (formArr) => {
     formArr.forEach(element => {
         const { nameEl, pathEl } = element;
 
-        fetch(`/components/form/${pathEl}.html`)
+        fetch(`./components/form/${pathEl}.html`)
             .then(res => res.text())
             .then(data => nameEl.innerHTML = data);
     });
